@@ -1,0 +1,22 @@
+{
+  "name": "drone-control",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:CDDS/drone-control.git"
+  },
+  "author": "CDDS",
+  "license": "Proprietary",
+  "dependencies": {
+    "ar-drone": "^0.3.2",
+    "dronestream": "^1.1.1",
+    "express": "^4.9.0",
+    "socket.io": "^1.1.0"
+  }
+}
